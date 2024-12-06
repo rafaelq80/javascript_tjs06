@@ -12,9 +12,9 @@ for(let contador = 0; contador < vetorStrings.length; contador++){
 
 console.log("O Tamanho do Vetor Vazio é: ", vetorNumeros.length);
 
-// for(let contador = 0; contador < vetorInteiros.length; contador++){
-//     vetorInteiros[contador] = leia.questionInt('Digite um numero: ');
-// }
+for(let contador = 0; contador < vetorInteiros.length; contador++){
+    vetorInteiros[contador] = leia.questionInt('Digite um numero: ');
+}
 
 console.table(vetorInteiros);
 
