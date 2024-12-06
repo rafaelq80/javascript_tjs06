@@ -16,4 +16,4 @@ for(let indiceLinha = 0; indiceLinha < matrizInteiros.length; indiceLinha++){
 }
 
 /** Visualizando os dados inseridos na Matriz */
-console.table(matrizInteiros.sort((a,b) => b[0] - a[0]));
+console.table(matrizInteiros);
